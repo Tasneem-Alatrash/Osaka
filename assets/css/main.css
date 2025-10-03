@@ -1,0 +1,9 @@
+body {
+  height: 500vh;
+  --mainColor: #ff206e;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--mainColor);
+}
