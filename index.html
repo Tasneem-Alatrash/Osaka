@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark position-sticky top-0">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark position-sticky top-0 z-1">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -60,6 +60,116 @@
         </div>
     </nav>
 
+    <main>
+        <section class="projects py-5">
+            <nav>
+                <div class="nav justify-content-center nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
+                        type="button" role="tab" aria-controls="nav-All" aria-selected="true">All</button>
+                    <button class="nav-link" id="nav-Web-tab" data-bs-toggle="tab" data-bs-target="#nav-Web"
+                        type="button" role="tab" aria-controls="nav-Web" aria-selected="false">Web</button>
+                    <button class="nav-link" id="nav-Mobile-tab" data-bs-toggle="tab" data-bs-target="#nav-Mobile"
+                        type="button" role="tab" aria-controls="nav-Mobile" aria-selected="false">Mobile</button>
+
+                </div>
+            </nav>
+            <div class="tab-content mt-5" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 py-2">
+                                <div class="card">
+                                    <img src="./assets/img/project/person1.webp" class="card-img-top" alt="person1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="./assets/img/project/person2.webp" class="card-img-top" alt="person2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="./assets/img/project/person3.webp" class="card-img-top" alt="person3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-Web" role="tabpanel" aria-labelledby="nav-Web-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 py-2">
+                                <div class="card">
+                                    <img src="./assets/img/project/person1.webp" class="card-img-top" alt="person1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="./assets/img/project/person2.webp" class="card-img-top" alt="person2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-Mobile" role="tabpanel" aria-labelledby="nav-Mobile-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="./assets/img/project/person3.webp" class="card-img-top" alt="person3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card’s
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="cartcanvas" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>

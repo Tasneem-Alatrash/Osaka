@@ -7,3 +7,8 @@ body {
 .navbar-nav .nav-link.show {
   color: var(--mainColor);
 }
+
+.projects .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: var(--mainColor);
+}
